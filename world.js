@@ -271,7 +271,7 @@ class World {
 
     this.drawText("For example, I love the mind-blowing", 100, 440);    
     this.drawText("predictive infinity of fractals like", 120, 480);
-    this.drawText("the mandelbrot set. I use my love for", 110, 520);
+    this.drawText("the Mandelbrot Set. I use my love for", 110, 520);
     this.drawText("things like this and my knowledge of", 100,560);
     this.drawText("math's usefullness to inspire my kids.", 100,600);
     
@@ -335,8 +335,8 @@ class World {
     
         ///Inquiry WORLD///
       if (curious) {
-        this.drawText("I don't know what brought you here,", 120,160);
-        this.drawText("but I admire it and how much you have.",90,200);
+        this.drawText("I really appreciate a lot of", 120,160);
+        this.drawText("curiosity. Keep exploring :)",140,200);
         interested = true;
         
       }  else {
