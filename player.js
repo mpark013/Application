@@ -39,16 +39,16 @@ class Player {
   controls() {
     //arrow keys
     if (keyIsDown(RIGHT_ARROW)) {
-      player.deltax += 5;
+      player.deltax += 10;
     }
     if (keyIsDown(LEFT_ARROW)) {
-      player.deltax -= 5;
+      player.deltax -= 10;
     }
     if (keyIsDown(DOWN_ARROW)) {
-      player.deltay += 5;
+      player.deltay += 10;
     }
     if (keyIsDown(UP_ARROW)) {
-      player.deltay -= 5;
+      player.deltay -= 10;
     }
     //wasd controls
     if (keyIsDown(68)) {
